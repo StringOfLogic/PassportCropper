@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  background: white;
+}
+
+html.dark {
+  background: #090909;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* React Image Crop */
+
+.ReactCrop {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.ReactCrop__image {
+  display: block;
+  max-width: 100%;
+  max-height: 60vh;
+}
+
+.ReactCrop__crop-selection {
+  border: 1px solid white;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55);
+}
+
+.ReactCrop__drag-handle {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 1px solid black;
+}
