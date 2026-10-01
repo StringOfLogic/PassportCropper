@@ -34,5 +34,3 @@ The application runs entirely in the browser and provides a responsive interface
 ## Deployment
 
 The project is deployed using GitHub Pages.
-
-[**🌐 Open Passport Cropper**](https://StringOfLogic.github.io/PassportCropper/)
