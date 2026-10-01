@@ -4,7 +4,7 @@ This repository contains a web-based passport photo cropping tool. It allows use
 
 <a href="https://StringOfLogic.github.io/PassportCropper/"> <img alt="Passport Cropper" src="https://img.shields.io/badge/Open%20Passport%20Cropper-0F172A?style=for-the-badge&logo=github&logoColor=white"/> </a>
 
-![Passport Cropper](images/passportcropper.png)
+![Passport Cropper](public/passportcropper.png)
 
 ## Scenario
 
