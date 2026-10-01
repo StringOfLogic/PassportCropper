@@ -6,7 +6,7 @@ function App() {
   return (
     <div
       className="
-        min-h-screen
+        flex min-h-screen flex-col
         bg-white
         text-black
         transition-colors
@@ -16,7 +16,9 @@ function App() {
     >
       <Navbar />
 
-      <CropperTool />
+      <main className="flex-1">
+        <CropperTool />
+      </main>
 
       <Footer />
     </div>
